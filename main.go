@@ -2,7 +2,7 @@ package main
 
 import (
 	"os"
-	"github.com/fullfillmentservice/service"
+	"github.com/tttmaximttt/fullfillmentservice/service"
 )
 
 func main() {
