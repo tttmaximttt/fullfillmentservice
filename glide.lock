@@ -1,0 +1,12 @@
+hash: ea314ab660067ba2d3e5b2a8b60aa7c5cf7d687db314ab666e7b2edaa02f984b
+updated: 2017-03-08T22:24:51.655999689+02:00
+imports:
+- name: github.com/codegangsta/negroni
+  version: fde5e16d32adc7ad637e9cd9ad21d4ebc6192535
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 392c28fe23e1c45ddba891b0320b3b5df220beea
+- name: github.com/unrolled/render
+  version: 50716a0a853771bb36bfce61a45cdefdb98c2e6e
+testImports: []

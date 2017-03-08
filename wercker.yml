@@ -48,26 +48,3 @@ build:
         name: copy files to wercker output
         code: |
           cp -R ./ ${WERCKER_OUTPUT_DIR}
-
-
-#deploy:
-# steps:
-#   - internal/docker-push:
-#       username: $USERNAME
-#       password: $PASSWORD
-#       cmd: /pipeline/source/backing-catalog
-#       port: "8080"
-#       tag: latest
-#       repository: github.com/tttmaximttt/fullfillmentservice
-#       registry: https://registry.hub.docker.com
-#
-#cloud-deploy:
-#  steps:
-#   - cng/cf-deploy:
-#       api: $API
-#       user: $USER
-#       password: $PASSWORD
-#       org: $ORG
-#       space: $SPACE
-#       appname: backing-catalog
-#       docker_image: github.com/tttmaximttt/fullfillmentservice
