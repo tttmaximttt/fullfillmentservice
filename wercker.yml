@@ -12,7 +12,7 @@ dev:
           go version
           go get -u github.com/Masterminds/glide
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
-          go get
+          glide install
 
     - internal/watch:
         code: go run main.go

@@ -9,3 +9,5 @@ import:
   version: ~1.3.1
 - package: github.com/cloudfoundry-community/go-cfenv
   version: ~1.15.0
+- package: github.com/cenkalti/backoff
+  version: ~1.0.0
